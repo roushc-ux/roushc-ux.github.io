@@ -28,8 +28,8 @@
   </div>
   
   <!-- Header -->
-  <div id="Home" style="width: 1440px; height: 720px;">
-    <div id="name" style="text-align: center; font-family: Raleway, sans-serif; font-size: xx-large; background-color: rgb(238, 238, 238); width: 50%; position: absolute; padding: 20px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; opacity: 0.5; margin-top: 180px; margin-left: 360px; margin-right: 360px; background-position: initial initial; background-repeat: initial initial;">
+  <div id="Home" >
+    <div id="name" >
           <b>Christopher Roush</b>
           <div style="font-size: medium;">
             Student, Leader, Developer
@@ -42,7 +42,7 @@
   </div>
   
   <!-- First Grid -->
-  <div id="AboutMe" class="w3-row-padding w3-padding-64 w3-container" style="width: 1440px;">
+  <div id="AboutMe" class="w3-row-padding w3-padding-64 w3-container grid" >
     <div class="w3-content" id="me">
         <h2>About Me</h2>
         <h5 class="w3-padding-32">I'm a Computer Science in Engineering student at the <a href="https://umich.edu">University of Michigan, Ann Arbor</a>.
@@ -54,12 +54,12 @@
     </div>
   </div>
   
-  <div id="hobbies" style="height: 300px; vertical-align: middle !important; width: 1440px;">
-    <h5 style="padding-top: 150px; color: white;">Aside from mathematics and computer science, I invest my time in basketball, track &amp; field, weightlifting, chess, drawing and reading.</h5>
+  <div id="hobbies" >
+    <h5>Aside from mathematics and computer science, I invest my time in basketball, track &amp; field, weightlifting, chess, drawing and reading.</h5>
   </div>
   
   <!-- Second Grid -->
-  <div id="Projects" class="w3-row-padding w3-padding-64 w3-container" style="width: 1440px;">
+  <div id="Projects" class="w3-row-padding w3-padding-64 w3-container grid" >
     <div class="w3-content">
     <h2>Projects</h2>
     <h5 class="w3-padding-32">Hover for details or click on a project for more information.</h5>
@@ -132,101 +132,24 @@
   </div>
   
   <!-- Third Grid -->
-  <div id="Contact" class="w3-row-padding w3-container" style="width: 1440px;">
+  <div id="Contact" class="w3-row-padding w3-container grid" >
   
         <h2>Contact</h2>
         <h5 class="w3-padding-32">Let's get in touch!</h5>
   
-      <p class="p1"><a id="contact1" href="mailto:roushc@umich.edu" style="text-decoration: none; padding: 10px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid rgb(0, 0, 0); width: 399.140625px;"><i class="fa fa-envelope"></i>roushc@umich.edu</a></p>
-      <p class="p1"><a id="contact2" href="https://github.com/roushc-ux" style="text-decoration: none; padding: 10px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid rgb(0, 0, 0); width: 399.140625px;"><i class="fa fa-github"></i>github.com/roushc-ux</a></p>
-        <p class="p1"><a id="contact3" href="https://linkedin.com/in/christopher-roush" style="text-decoration: none; padding: 10px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid rgb(0, 0, 0); width: 399.140625px;"><i class="fa fa-linkedin"></i>linkedin.com/in/christopher-roush</a></p>
+      <p class="p1"><a class="contact" href="mailto:roushc@umich.edu"><i class="fa fa-envelope"></i>roushc@umich.edu</a></p>
+      <p class="p1"><a class="contact" href="https://github.com/roushc-ux" ><i class="fa fa-github"></i>github.com/roushc-ux</a></p>
+        <p class="p1"><a class="contact" href="https://linkedin.com/in/christopher-roush" ><i class="fa fa-linkedin"></i>linkedin.com/in/christopher-roush</a></p>
   
   </div>
   
   <!-- Footer -->
-  <footer id="Footer" class="w3-container w3-padding-32 w3-center w3-opacity" style="width: 1440px;">
+  <footer id="Footer" class="w3-container w3-padding-32 w3-center w3-opacity grid">
    <p>© Christopher Roush 2020</p>
   </footer>
   
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
-  $(document).ready(function(){
-    var windowWidth = window.innerWidth;
-    $('#Home').css('width', windowWidth);
-    $('#Home').css('height', windowWidth/2);
-    $('#AboutMe').css('width', windowWidth);
-    $('#hobbies').css('width', windowWidth);
-    $('#Projects').css('width', windowWidth);
-    $('#Contact').css('width', windowWidth);
-    $('#Footer').css('width', windowWidth);
-    var newWidth = windowWidth/2;
-    var newMargin = (windowWidth-document.getElementById("name").offsetWidth)/2;
-    document.getElementById("name").style.marginTop = (newMargin/2).toString() + "px";
-    document.getElementById("name").style.marginLeft = newMargin.toString() + "px";
-    document.getElementById("name").style.marginRight = newMargin.toString() + "px";
-  
-    var mobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
-    newWidth = document.getElementById("projectTable").offsetWidth/2;
-    var newHeight = newWidth/1.6;
-    if (newHeight < 100) {
-      newHeight = 100
-    }
-    $(".row").height(newHeight);
-  
-    if (mobile) {
-      $('#Home').css('height', 500);
-      document.getElementById("cell1desc").innerHTML = "";
-      document.getElementById("cell2desc").innerHTML = "";
-      document.getElementById("cell3desc").innerHTML = "";
-      document.getElementById("cell4desc").innerHTML = "";
-      document.getElementById("cell5desc").innerHTML = "";
-      document.getElementById("cell6desc").style.fontSize = "x-small";
-    } else {
-      for (let i = 1; i <= 5; i++) {
-        // var newMarginHeight = (newHeight-document.getElementById("cell"+i.toString()+"desc").offsetHeight)/2;
-        $("#cell"+i.toString()+"desc").css("padding-top", Math.round((newHeight-document.getElementById("cell"+i.toString()+"desc").offsetHeight)/2));
-      }
-    }
-  
-  
-  
-    $(".cell1").width(newWidth);
-    $(".cell2").width(newWidth);
-    $(".cell3").width(newWidth);
-    $(".cell4").width(newWidth);
-    $(".cell5").width(newWidth);
-    $(".cell6").width(newWidth);
-    $(".more").css("padding-top", Math.round(newHeight/2 - 20));
-    var newWidth2 = Math.min(Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width()) + 100, windowWidth-200);
-    $("#contact1").width(newWidth2);
-    $("#contact2").width(newWidth2);
-    $("#contact3").width(newWidth2);
-  
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-  
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          // window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  
   
   particlesJS("particles-js", {
     particles: {

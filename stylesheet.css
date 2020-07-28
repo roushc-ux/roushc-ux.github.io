@@ -22,12 +22,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 300px; 
+    vertical-align: middle !important; 
+    width: 1440px;
   }
-  
+
+  #head {
+    width: 1440px; 
+    height: 720px;
+  }
+
+  #name {
+    text-align: center; 
+    font-family: Raleway, sans-serif; 
+    font-size: xx-large; 
+    background-color: rgb(238, 238, 238); 
+    width: 50%; position: absolute; 
+    padding: 20px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+    border-bottom-left-radius: 8px; 
+    opacity: 0.5; margin-top: 180px; 
+    margin-left: 360px; 
+    margin-right: 360px; 
+    background-position: initial initial; 
+    background-repeat: initial initial;
+  }
+  .grid {
+    width: 1440px;
+  }
   table {
       width: 100%;
       height: 100%;
-      border-spacing: 30px;
+      border-spacing: 3rem;
   
   }
   
@@ -40,20 +68,20 @@ body{
       transition-duration: 0.8s;
       text-align: center;
       vertical-align: middle;
-      border: solid black 1px;
+      border: solid black .1rem;
   
   }
   
   td:hover {
       background-color: white;
       opacity: 0.9;
-      box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+      box-shadow: .5rem 1rem 1.5rem .5rem rgba(0, 0, 0, 0.5);
   }
   
   .cells {
-       padding-top: 20px;
-       padding-left: 25px;
-       padding-right: 25px;
+       padding-top: 2rem;
+       padding-left: 2.5rem;
+       padding-right: 2.5rem;
   }
   
   .cell1 {
@@ -101,7 +129,7 @@ body{
   .v1 {
     font-family: 'Raleway', sans-serif;
        color: white;
-       font-size: 20px;
+       font-size: 2rem;
        text-align: center;
        vertical-align: center;
        opacity: 0;
@@ -117,7 +145,7 @@ body{
   .v2 {
     font-family: 'Raleway', sans-serif;
        color: white;
-       font-size: 20px;
+       font-size: 2rem;
        text-align: center;
        vertical-align: center;
        opacity: 0;
@@ -133,7 +161,7 @@ body{
   .v3 {
     font-family: 'Raleway', sans-serif;
        color: white;
-       font-size: 20px;
+       font-size: 2rem;
        text-align: center;
        vertical-align: center;
        opacity: 0;
@@ -149,7 +177,7 @@ body{
    .v4 {
       font-family: 'Raleway', sans-serif;
       color: white;
-      font-size: 20px;
+      font-size: 2rem;
       text-align: center;
       vertical-align: center;
   
@@ -163,16 +191,16 @@ body{
   
   h1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 70px;
+      font-size: 7rem;
       text-align: center;
-      padding-top: 25px;
+      padding-top: 2.5rem;
       color: black;
   }
   
   h2 {
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
-      font-size: 30px;
+      font-size: 3rem;
       text-align: center;
       color: black;
   }
@@ -180,45 +208,45 @@ body{
   h3 {
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
-      font-size: 40px;
+      font-size: 4rem;
       text-align: center;
-      padding-top: 350px;
+      padding-top: 35rem;
       color: black;
   }
   
   h4 {
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
-      font-size: 25px;
+      font-size: 2.5rem;
       text-align: center;
-      padding-top: 48px;
+      padding-top: 4.8rem;
       color: black;
   }
   
   h5 {
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
       text-align: center;
-      padding-top: 25px;
+      padding-top: 2.5rem;
       color: black;
   }
   
   i {
       font-family: 'Raleway', sans-serif;
-      font-size: 30px;
+      font-size: 3rem;
       text-align: center;
-      margin: 8px;
+      margin: .8rem;
       color: dark gray;
-      line-height: 40px;
+      line-height: 4rem;
   }
   
   .p1 {
       font-family: 'Raleway', sans-serif;
-      font-size: 20px;
+      font-size: 2rem;
       text-align: center;
-      margin-top: 16px;
-      margin-bottom: 16px;
-      line-height: 40px;
+      margin-top: 1.6rem;
+      margin-bottom: 1.6rem;
+      line-height: 4rem;
   }
   
   .italic {
@@ -228,12 +256,12 @@ body{
   
   p {
       font-family: 'Raleway', sans-serif;
-      font-size: 18px;
+      font-size: 1.8rem;
       text-align: left-side;
-      margin-top: 64px;
-      margin-right: 64px;
-      margin-left: 64px;
-      margin-bottom: 32px;
+      margin-top: 6.4rem;
+      margin-right: 6.4rem;
+      margin-left: 6.4rem;
+      margin-bottom: 3.2rem;
   }
   
   a {
@@ -245,17 +273,19 @@ body{
       background-color: #FFFFFF;
   }
   
-  #contact1:hover {
+  .contact:hover {
       color: #FFFFFF;
       background-color: #000000;
+  }
+
+  .contact {
+    text-decoration: none; 
+    padding: 10px; 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    border: 1px solid rgb(0, 0, 0); 
+    width: 399.140625px;
   }
   
-  #contact2:hover {
-      color: #FFFFFF;
-      background-color: #000000;
-  }
-  
-  #contact3:hover {
-      color: #FFFFFF;
-      background-color: #000000;
-  }
