@@ -1,0 +1,265 @@
+/* ---- particles.js container ---- */
+#particles-js {
+    /*position: absolute;*/
+    width: 100%;
+    height: 100%;
+    /*background-color: #000000;*/
+    background-image: url("images/Background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*background-position: 50% 50%;*/
+  }
+  
+  
+  /*header {
+      background-image: url("images/Background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }*/
+  
+  #hobbies {
+    background-image: url("images/books.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  table {
+      width: 100%;
+      height: 100%;
+      border-spacing: 30px;
+  
+  }
+  
+  tr {
+      width: 100%;
+      height: 100%;
+  }
+  
+  td {
+      transition-duration: 0.8s;
+      text-align: center;
+      vertical-align: middle;
+      border: solid black 1px;
+  
+  }
+  
+  td:hover {
+      background-color: white;
+      opacity: 0.9;
+      box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cells {
+       padding-top: 20px;
+       padding-left: 25px;
+       padding-right: 25px;
+  }
+  
+  .cell1 {
+      background-image: url("images/deadlift_example2.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  
+  }
+  
+  .cell2 {
+      background-image: url("images/s1.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  
+  }
+  
+  .cell3 {
+      background-image: url("images/blockchaingePicture.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  .cell4 {
+      background-image: url("images/Jordan.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  .cell5 {
+      background-image: url("images/algo.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+  
+  
+  .cell6 {
+    background-color: black;
+  }
+  
+  .v1 {
+    font-family: 'Raleway', sans-serif;
+       color: white;
+       font-size: 20px;
+       text-align: center;
+       vertical-align: center;
+       opacity: 0;
+  
+  }
+  
+  .v1:hover {
+       opacity: 0.9;
+       color: black;
+  
+  }
+  
+  .v2 {
+    font-family: 'Raleway', sans-serif;
+       color: white;
+       font-size: 20px;
+       text-align: center;
+       vertical-align: center;
+       opacity: 0;
+  
+  }
+  
+  .v2:hover {
+       opacity: 0.9;
+       color: black;
+  
+  }
+  
+  .v3 {
+    font-family: 'Raleway', sans-serif;
+       color: white;
+       font-size: 20px;
+       text-align: center;
+       vertical-align: center;
+       opacity: 0;
+  
+  }
+  
+  .v3:hover {
+       opacity: 0.9;
+       color: black;
+  
+  }
+  
+   .v4 {
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      vertical-align: center;
+  
+  }
+  
+  .v4:hover {
+      opacity: 0.9;
+      color: black;
+  
+  }
+  
+  h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 70px;
+      text-align: center;
+      padding-top: 25px;
+      color: black;
+  }
+  
+  h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+      color: black;
+  }
+  
+  h3 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      text-align: center;
+      padding-top: 350px;
+      color: black;
+  }
+  
+  h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      padding-top: 48px;
+      color: black;
+  }
+  
+  h5 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      padding-top: 25px;
+      color: black;
+  }
+  
+  i {
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      text-align: center;
+      margin: 8px;
+      color: dark gray;
+      line-height: 40px;
+  }
+  
+  .p1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      line-height: 40px;
+  }
+  
+  .italic {
+      font-weight: italic;
+      text-align: center;
+  }
+  
+  p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 18px;
+      text-align: left-side;
+      margin-top: 64px;
+      margin-right: 64px;
+      margin-left: 64px;
+      margin-bottom: 32px;
+  }
+  
+  a {
+      transition-duration: 0.8s;
+      display: inline-block;
+  }
+  
+  a:hover {
+      background-color: #FFFFFF;
+  }
+  
+  #contact1:hover {
+      color: #FFFFFF;
+      background-color: #000000;
+  }
+  
+  #contact2:hover {
+      color: #FFFFFF;
+      background-color: #000000;
+  }
+  
+  #contact3:hover {
+      color: #FFFFFF;
+      background-color: #000000;
+  }
