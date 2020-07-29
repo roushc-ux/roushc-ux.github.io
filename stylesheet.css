@@ -92,7 +92,7 @@ body{
   
   .cell2 {
       background-image: url("images/s1.jpg");
-      background-size: 30rem 30rem;
+      background-size: 50rem 50rem;
       background-repeat: no-repeat;
       background-position: center center;
   
@@ -100,21 +100,21 @@ body{
   
   .cell3 {
       background-image: url("images/blockchaingePicture.jpg");
-      background-size: 30rem 30rem;
+      background-size: 50rem 50rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
   
   .cell4 {
       background-image: url("images/Jordan.jpg");
-      background-size: 30rem 30rem;
+      background-size: 50rem 50rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
   
   .cell5 {
       background-image: url("images/algo.jpg");
-      background-size: 30rem 30rem;
+      background-size: 50rem 50rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
@@ -288,11 +288,19 @@ body{
   }
 
   .cell {
-      width: 50rem;
+      margin: 2.5rem;
+      height: 50rem;
   }
 
   .row {
-      height: 30rem;
+      display: flex;
+      flex-direction: row;
+  }
+
+  @media (max-width: 1020px) {
+      .row {
+          flex-direction: column;
+      }
   }
 
   
