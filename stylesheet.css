@@ -84,7 +84,7 @@ body{
   
   .cell1 {
       background-image: url("images/deadlift_example2.jpg");
-      background-size: 30rem 30rem;
+      background-size: 50rem 50rem;
       background-repeat: no-repeat;
       background-position: center center;
   
@@ -295,18 +295,4 @@ body{
       height: 30rem;
   }
 
-  @media (max-width: 1020px) {
-      tbody {
-          
-      }
-
-      .cell {
-          margin: 2.5rem;
-      }
-
-      .row {
-          display: flex;
-          flex-direction: column;
-      }
-  }
   
