@@ -44,10 +44,8 @@ body{
     border-bottom-right-radius: .8rem; 
     border-bottom-left-radius: .8rem; 
     opacity: 0.5; margin-top: 18rem; 
-    margin-left: 36rem; 
-    margin-right: 36rem; 
-    background-position: initial initial; 
-    background-repeat: initial initial;
+    margin-left: 25%; 
+    margin-right: 25%; 
   }
   .grid {
     width: 100%;
