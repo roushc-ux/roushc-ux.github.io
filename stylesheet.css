@@ -84,7 +84,7 @@ body{
   
   .cell1 {
       background-image: url("images/deadlift_example2.jpg");
-      background-size: 100% 100%;
+      background-size: 30rem 30rem;
       background-repeat: no-repeat;
       background-position: center center;
   
@@ -92,7 +92,7 @@ body{
   
   .cell2 {
       background-image: url("images/s1.jpg");
-      background-size: 100% 100%;
+      background-size: 30rem 30rem;
       background-repeat: no-repeat;
       background-position: center center;
   
@@ -100,21 +100,21 @@ body{
   
   .cell3 {
       background-image: url("images/blockchaingePicture.jpg");
-      background-size: 100% 100%;
+      background-size: 30rem 30rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
   
   .cell4 {
       background-image: url("images/Jordan.jpg");
-      background-size: 100% 100%;
+      background-size: 30rem 30rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
   
   .cell5 {
       background-image: url("images/algo.jpg");
-      background-size: 100% 100%;
+      background-size: 30rem 30rem;
       background-repeat: no-repeat;
       background-position: center center;
   }
@@ -293,5 +293,20 @@ body{
 
   .row {
       height: 30rem;
+  }
+
+  @media (max-width: 1020px) {
+      tbody {
+          
+      }
+
+      .cell {
+          margin: 2.5rem;
+      }
+
+      .row {
+          display: flex;
+          flex-direction: column;
+      }
   }
   
