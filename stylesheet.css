@@ -299,7 +299,7 @@ body{
           width: unset;
       }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
       .cell {
         background-size: 30rem 30rem;
       }
