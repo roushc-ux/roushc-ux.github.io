@@ -290,6 +290,7 @@ body{
   .cell {
       margin: 2.5rem;
       height: 50rem;
+      width: 50%;
   }
 
   .row {
@@ -300,6 +301,9 @@ body{
   @media (max-width: 1020px) {
       .row {
           flex-direction: column;
+      }
+      .cell {
+          width: unset;
       }
   }
 
