@@ -84,53 +84,30 @@ body{
   
   .cell1 {
       background-image: url("images/void.png");
-      background-size: 50rem 50rem;
-      background-repeat: no-repeat;
-      background-position: center center;
-  
   }
   
   .cell2 {
       background-image: url("images/hackblue.png");
-      background-size: 50rem 50rem;
-      background-repeat: no-repeat;
-      background-position: center center;
-  
   }
   
   .cell3 {
       background-image: url("images/learninga-z.png");
-      background-size: 50rem 50rem;
-      background-repeat: no-repeat;
-      background-position: center center;
   }
   
   .cell4 {
       background-image: url("images/bluelab.png");
-      background-size: 50rem 50rem;
-      background-repeat: no-repeat;
-      background-position: center center;
   }
 
   .cell5 {
     background-image: url("images/dynamicbook.jpg");
-    background-size: 50rem 50rem;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .cell6 {
     background-image: url("images/blackjack.jpg");
-    background-size: 50rem 50rem;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
 .cell7 {
     background-image: url("images/freedomhouse.png");
-    background-size: 50rem 50rem;
-    background-repeat: no-repeat;
-    background-position: center center;
 } 
   
   .cell8 {
@@ -304,6 +281,9 @@ body{
       margin: .5rem;
       height: 50rem;
       width: 50%;
+      background-size: 50rem 50rem;
+    background-repeat: no-repeat;
+     background-position: center center;
   }
 
   .row {
@@ -317,6 +297,11 @@ body{
       }
       .cell {
           width: unset;
+      }
+  }
+  @media (max-width: 700px) {
+      .cell {
+        background-size: 30rem 30rem;
       }
   }
 
