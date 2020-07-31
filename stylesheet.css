@@ -317,7 +317,7 @@ body{
 
   .videoCell {
       display: flex;
-      align-items: center;
+      justify-content: center;
   }
   
   .textCell {
