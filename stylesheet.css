@@ -3,7 +3,7 @@ html {
     min-width: 630px;
   }
 body{          
-    font-size: 1.7rem; 
+    font-size: 1.8rem; 
   } 
 
 /* ---- particles.js container ---- */
@@ -246,7 +246,6 @@ body{
   
   p {
       font-family: 'Raleway', sans-serif;
-      font-size: 1.8rem;
       text-align: left-side;
       margin-right: 6.4rem;
       margin-left: 6.4rem;
