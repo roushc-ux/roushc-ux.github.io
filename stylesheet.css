@@ -338,6 +338,7 @@ body{
     .textCell {
         height: 30rem;
         font-size: 1.7rem;
+        background-size: 30rem 30rem;
     }
 }
 @media (max-width: 600px) {
