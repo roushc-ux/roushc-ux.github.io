@@ -301,13 +301,13 @@ body{
   .blueRow {
     background: #1eb2fc;
     border-radius: 2.5rem;
-    border: .2rem solid #1e73fc;
+    border: .2rem solid black;
   }
 
   .grayRow {
     background: #7a8596;
     border-radius: 2.5rem;
-    border: .2rem solid #535a66;
+    border: .2rem solid black;
   }
 
   video {
