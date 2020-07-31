@@ -302,12 +302,14 @@ body{
     background: #1eb2fc;
     border-radius: 2.5rem;
     border: .2rem solid black;
+    margin: .5rem;
   }
 
   .grayRow {
     background: #7a8596;
     border-radius: 2.5rem;
     border: .2rem solid black;
+    margin: .5rem;
   }
 
   video {
