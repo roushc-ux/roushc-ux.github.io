@@ -299,17 +299,15 @@ body{
   }
 
   .blueRow {
-    background: #7395ae;
+    background: #4056a1;
     border-radius: 2.5rem;
-    border: .2rem solid #5d5c61;
-    margin: .5rem;
+    margin: .75rem;
   }
 
   .grayRow {
-    background: #b1a296;
+    background: #ffcb05;
     border-radius: 2.5rem;
-    border: .2rem solid #5d5c61;
-    margin: .5rem;
+    margin: .75rem;
   }
 
   video {
