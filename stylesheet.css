@@ -314,4 +314,14 @@ body{
       padding-left: 2rem;
       padding-right: 2rem;
   }
+
+  .blueRow {
+    background: #1eb2fc;
+    border-color: #1e73fc;
+  }
+
+  .grayRow {
+    background: #7a8596;
+    border-color: #535a66;
+  }
   
