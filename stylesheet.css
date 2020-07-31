@@ -300,12 +300,14 @@ body{
 
   .blueRow {
     background: #1eb2fc;
-    border-color: #1e73fc;
+    border-radius: 2.5rem;
+    border: .2rem solid #1e73fc;
   }
 
   .grayRow {
     background: #7a8596;
-    border-color: #535a66;
+    border-radius: 2.5rem;
+    border: .2rem solid #535a66;
   }
 
   video {
