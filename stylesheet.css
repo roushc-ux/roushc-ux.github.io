@@ -293,21 +293,6 @@ body{
       flex-direction: row;
   }
 
-  @media (max-width: 1020px) {
-      .row {
-          flex-direction: column;
-      }
-      .cell {
-          width: unset;
-      }
-  }
-  @media (max-width: 600px) {
-      .cell {
-        background-size: 30rem 30rem;
-        height: 30rem;
-      }
-  }
-
   .wrapper {
       margin-left: auto;
       margin-right: auto;
@@ -326,9 +311,8 @@ body{
   }
 
   video {
-    width: 75rem; 
-    height:40rem;
-    margin: 7.5%;
+    width: 98%; 
+    height: 98%;
   }
 
   .videoCell {
@@ -336,3 +320,25 @@ body{
       align-items: center;
   }
   
+  .textCell {
+    font-size: large;
+  }
+
+  @media (max-width: 1024px) {
+    .row {
+        flex-direction: column;
+    }
+    .cell {
+        width: unset;
+    }
+    .textCell {
+        height: 30rem;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 600px) {
+    .cell {
+      background-size: 30rem 30rem;
+      height: 30rem;
+    }
+}
