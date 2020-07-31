@@ -299,16 +299,16 @@ body{
   }
 
   .blueRow {
-    background: #1eb2fc;
+    background: #7395ae;
     border-radius: 2.5rem;
-    border: .2rem solid black;
+    border: .2rem solid #5d5c61;
     margin: .5rem;
   }
 
   .grayRow {
-    background: #fff944;
+    background: #b1a296;
     border-radius: 2.5rem;
-    border: .2rem solid black;
+    border: .2rem solid #5d5c61;
     margin: .5rem;
   }
 
