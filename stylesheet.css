@@ -343,6 +343,9 @@ body{
         font-size: 1.7rem;
         background-size: 30rem 30rem;
     }
+    .grayRow {
+        flex-direction: column-reverse;
+    }
 }
 @media (max-width: 600px) {
     .cell {
